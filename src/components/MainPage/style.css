@@ -1,0 +1,74 @@
+.pageHeaderWrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(110, 209, 40);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.dropdownMenu {
+  position: absolute;
+  left: 50px;
+  top: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  z-index: 99;
+}
+
+.category {
+  width: 135px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  transition: 0.3s;
+  color: white;
+}
+.categoryTitle {
+  text-align: center;
+}
+.category:hover {
+  background-color: white;
+  transition: 0.3s;
+  cursor: pointer;
+  color: rgb(110, 209, 40);
+}
+
+.menuItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+  border: 2px solid coral;
+  border-radius: 15px;
+  padding: 10px;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.fullPageWrapper {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.mainWrapper {
+  margin: 100px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(110, 209, 40);
+  font-size: 25px;
+  font-family: fantasy;
+}

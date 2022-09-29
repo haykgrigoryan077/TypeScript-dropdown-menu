@@ -1,0 +1,17 @@
+.dropdownItem {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 15px;
+    color: black;
+    transition: 0.3s;
+}
+
+.dropdownItem:hover {
+    background-color: rgb(234, 234, 164);
+    transition: 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
